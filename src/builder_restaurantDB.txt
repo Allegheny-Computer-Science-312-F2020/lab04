@@ -1,0 +1,45 @@
+/* Date: 29 Sept 2020 */
+/* NAME */
+
+/* Enable foreign keys: automatically check any foreign key constraints */
+TODO
+
+
+DROP TABLE HasReservation;
+CREATE TABLE HasReservation (
+TODO
+);
+
+DROP TABLE Diners;
+CREATE TABLE Diners (
+TODO
+);
+
+DROP TABLE Orders;
+CREATE TABLE Orders (
+TODO
+);
+
+
+/* Data */
+INSERT INTO Diners VALUES ("01_1","George", "Watson", "NONE");
+INSERT INTO Diners VALUES ("01_2","Katherine", "Johnson", "NONE");
+
+INSERT INTO Diners VALUES ("01_1", "George", "Watson", "NONE");
+INSERT INTO Diners VALUES ("01_2", "Clarence", "Ellis", "NONE");
+INSERT INTO Diners VALUES ("01_3", "Annie", "Easley", "NONE");
+INSERT INTO Diners VALUES ("01_4", "Melba", "Mouton", "NONE");
+
+INSERT INTO Diners VALUES ("02_1", "Katherine", "Johnson", "NONE");
+INSERT INTO Diners VALUES ("02_2", "Dorothy", "Vaughan", "NONE");
+INSERT INTO Diners VALUES ("02_3", "Mary", "Jackson", "NONE");
+INSERT INTO Diners VALUES ("02_4", "Evelyn", "Granville", "NONE");
+
+INSERT INTO Diners VALUES ("03_1", "Grace", "Hopper", "NONE");
+INSERT INTO Diners VALUES ("03_2", "Anita", "Borg", "NONE");
+INSERT INTO Diners VALUES ("03_3", "Claude", "Shannon", "NONE");
+INSERT INTO Diners VALUES ("03_4", "Jeannette", "Wing", "NONE");
+
+
+
+/* cat builder_restaurantDB.txt| sqlite3 restaurantDB.sqlite3 */
